@@ -7,7 +7,7 @@ namespace Ilumisoft.HealthSystem
     /// It allows you to define a damage multiplier in the inspector.
     /// In that way you can create multiple hitboxes on an actor for different damage zones (head, body, arms,...)
     /// </summary>
-    [RequireComponent(typeof(Collider))]
+    [RequireComponent(typeof(Collider2D))]
     [AddComponentMenu("Health System/Hitbox")]
     public class Hitbox : HitboxComponent
     {

@@ -8,6 +8,7 @@ public class HealthDecay : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("HealthDecay Start called."); // Add this line
         if (healthComponent == null)
         {
             healthComponent = GetComponent<HealthComponent>();
